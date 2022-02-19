@@ -140,7 +140,7 @@ const QRGenerator = () => {
                                     <TextField
                                         variant="outlined"
                                         required
-                                        label="Type text here"
+                                        label="Type the Link here"
                                         value={value}
                                         onChange={(e) => setValue(e.target.value)}/>
                                 </Grid>

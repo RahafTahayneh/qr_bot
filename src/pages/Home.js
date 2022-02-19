@@ -11,13 +11,11 @@ const useStyles = makeStyles(() => ({
     },
     section: {
         width: '100%',
-        marginBottom: "120px",
-        marginTop: "70px !important",
+        marginBottom: "30px",
+        marginTop: "30px !important",
     },
     footer:{
         width: "100%",
-        position: "absolute",
-        bottom: 0,
     }
 }));
 

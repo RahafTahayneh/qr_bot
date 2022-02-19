@@ -15,9 +15,9 @@ const Header = () => {
     const classes = useStyles()
     return (
         <Grid container className={classes.root} alignItems="center" justifyContent="space-between" wrap={"nowrap"}>
-            <Grid item container alignItems={"center"} className="logo-container" >
+            <Grid item container alignItems={"center"} >
                 <Link to="/">
-                    QrBot
+                   <span className={"logo-container"}> QrBot </span>
                 </Link>
             </Grid>
             <Grid item>

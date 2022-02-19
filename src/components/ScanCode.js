@@ -79,7 +79,7 @@ const ScanCode = () => {
                 (() => {
                     switch (scan) {
                         case true:
-                            return (
+                            return !scanResult && (
                                 <Grid item container direction="row" alignItems='flex-start' justifyContent="center" className={classes.qrbody}>
                                     <Grid item className={classes.qrView}>
                                         <BarcodeScannerComponent
