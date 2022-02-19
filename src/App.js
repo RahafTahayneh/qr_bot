@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { Layout } from "./layout";
+import { Home, QRGenerator, QRScanner } from "./pages";
+import './styles/App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Router>
+            <Layout>
+                <Switch>
+                    <Route exact path="/" >
+                        <Home />
+                    </Route>
+                    <Route exact path="/qr-scanner" component={QRScanner}/>
+                    <Route exact path="/qr-generator" component={QRGenerator}/>
+                </Switch>
+            </Layout>
+        </Router>
     </div>
   );
 }

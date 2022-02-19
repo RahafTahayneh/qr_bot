@@ -1,0 +1,41 @@
+@import url(./Components.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background-color: hsl(217, 28%, 15%);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #9c27b0 !important;
+}
+
+.MuiTab-textColorPrimary {
+  color: #343a40 !important;
+  font-weight: 700 !important;
+}
+.MuiTab-textColorPrimary.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38) !important;
+}
+
+.PrivateTabIndicator-colorPrimary-2 {
+  background-color: #9c27b0 !important;
+}
+

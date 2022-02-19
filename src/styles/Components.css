@@ -1,0 +1,117 @@
+.logo-container {
+    font-weight: 900;
+    font-size: 24px;
+    background: -webkit-linear-gradient(#9c27b0, #a478ab);
+    -webkit-background-clip : text;
+   -webkit-text-fill-color : transparent
+}
+
+.tab {
+    padding: 0 8px;
+    margin-left: 8px;
+    font-size: 16px;
+}
+@media (max-width:300px) {
+    .tab {
+        font-size: 12px;
+    }
+}
+
+.illustration {
+    max-width: 600px;
+    max-height: 350px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%
+}
+
+.welcome {
+    font-size: 32px;
+    font-weight: 700;
+    max-width: 600px;
+    text-align: center;
+    margin: 12px 0 !important;
+}
+
+@media (max-width:500px) {
+    .welcome {
+        font-size: 24px;
+    }
+}
+
+.sub-welcome {
+    max-width: 500px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 0 12px !important;
+}
+
+.btn-container {
+    margin: 24px 0 !important;
+    max-width: 500px !important;
+}
+
+.main-button {
+    background: linear-gradient(#9c27b0, #a478ab) !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    padding: 10px 40px !important;
+    border-radius: 20px !important;
+    text-transform: capitalize !important;
+    white-space: nowrap;
+}
+
+.scanner-box {
+    flex-grow: 1;
+    max-width: 1090px;
+    height: 389px;
+    min-height: 389px;
+    max-height: 480px;
+    box-shadow: 0 0 30px rgba(0 0 0 0.1);
+    border-radius: 6px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.scanner-root {
+    width: 100%;
+    height: calc(100% - 48px);
+
+}
+
+.custom-file-input {
+    color: transparent;
+    width: 0px;
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.custom-file-input::before {
+    display: inline-block;
+    width: 0px;
+    border-radius: 4px;
+    padding: 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    font-size: 16px;
+    text-align: center;
+    background: #9c27b0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.name {
+    font-weight: 900;
+    font-size: 18px;
+    background: -webkit-linear-gradient(#9c27b0, #a478ab);
+    -webkit-background-clip : text;
+    -webkit-text-fill-color : transparent;
+    margin-left: 10px
+}
+
