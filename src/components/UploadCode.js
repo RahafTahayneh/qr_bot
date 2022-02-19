@@ -92,7 +92,7 @@ const UploadCode = () => {
                 setScanResult('')
                 setScan(false)
                 setIsShown(false)
-            }}>  <a> {scanResult}</a> </span>
+            }}>  {scanResult} </span>
             </Grid>}
         </Grid>
     )

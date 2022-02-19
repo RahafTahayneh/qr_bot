@@ -105,7 +105,7 @@ const ScanCode = () => {
                     setScanResult('')
                     setIsShown(false)
                     setScan(false)
-                }}> <a> {scanResult} </a> </span>
+                }}> {scanResult} </span>
             </Grid>}
         </Grid>
     )

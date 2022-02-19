@@ -7,12 +7,12 @@ const Panel = () => {
         <Grid container direction="row" alignItems="center" wrap="nowrap">
             <Grid item className="tab">
                 <Link to="/#home">
-                    <a>Home </a>
+                    Home
                 </Link>
             </Grid>
             <Grid item className="tab">
                 <Link to="/#overview">
-                    <a>Overview </a>
+                  Overview
                 </Link>
             </Grid>
         </Grid>

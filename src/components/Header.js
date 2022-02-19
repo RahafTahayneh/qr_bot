@@ -17,9 +17,7 @@ const Header = () => {
         <Grid container className={classes.root} alignItems="center" justifyContent="space-between" wrap={"nowrap"}>
             <Grid item container alignItems={"center"} className="logo-container" >
                 <Link to="/">
-                    <a>
-                        QrBot
-                    </a>
+                    QrBot
                 </Link>
             </Grid>
             <Grid item>
